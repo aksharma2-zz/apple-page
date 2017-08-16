@@ -1,0 +1,384 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+header li {
+  display: inline-flex;
+}
+
+header li a {
+  color: #ffffff;
+  margin: 0 17px;
+  text-decoration: none;
+}
+
+ul.nav {
+  list-style-type: none;
+}
+
+.li-hidden{
+   visibility: hidden;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a{
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+#product-img {
+  display: inline-block;
+  background: url(./images/iphone-6s-change_large.jpg);
+  width: 420px;
+  height: 571px;
+}
+
+#product-name {
+  background: url(./images/iphone_6s_large.png) no-repeat;
+  width: 330px;
+  height:60px;
+  margin: 0 auto 15px;
+}
+
+#product-quote {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Myriad Set Pro", "Helvetica Neue";
+  line-height: 1.26667;
+  -webkit-font-smoothing: antialiased;
+}
+
+#product-links {
+  display: flex;
+  text-align: center;
+  font-size: 23.7px;
+  margin: 20px 0px;
+  font-family: "Myriad Set Pro", "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+}
+
+#product-links>li>a {
+  color: #08c;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+#product-links>li>a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.product-info {
+  position: absolute;
+  margin-left: 70px;
+  display: inline-block;
+  width: 440px;
+  top: 261px;
+}
+
+.hero {
+  margin-top: 20px;
+}
+
+.hero li {
+  float: left;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.sub-image {
+  height: 150px;
+}
+
+.hero-subsection {
+  margin-top: 16px;
+  display: flex;
+}
+
+.sub-image {
+  height: 200px;
+  border-right: 2px solid #ffffff;
+}
+
+.nav-link {
+  width:70px;
+  height:25px;
+}
+
+.nav-link:hover {
+  opacity: .65;
+}
+
+#hero-watch {
+  background: url(./images/watch_large.jpg) center center no-repeat;
+}
+
+#hero-ipad {
+  background: url(./images/ipad_pro_large.jpg) center center no-repeat;
+}
+
+#hero-accessories {
+  background: url(./images/accessories_large.jpg) center center no-repeat;
+}
+
+#hero-macbook {
+  background: url(./images/macbook_large.jpg) center center no-repeat;
+}
+
+#nav-apple-logo {
+  background: url(./images/navbar/apple-icon.png) 50% 50% no-repeat;
+  height: 25px;
+}
+
+#nav-mac {
+  background: url(./images/navbar/mac.png) 50% 50% no-repeat;
+}
+
+#nav-ipad {
+  background: url(./images/navbar/ipad.png) 50% 50% no-repeat;
+}
+
+#nav-iphone {
+  background: url(./images/navbar/iphone.png) 50% 50% no-repeat;
+}
+
+#nav-watch {
+  background: url(./images/navbar/watch.png) 50% 50% no-repeat;
+}
+
+#nav-tv {
+  background: url(./images/navbar/tv.png) 50% 50% no-repeat;
+}
+
+#nav-music {
+  background: url(./images/navbar/music.png) 50% 50% no-repeat;
+}
+
+#nav-support {
+  background: url(./images/navbar/support.png) 50% 50% no-repeat;
+}
+
+#nav-magnifier {
+  background: url(./images/navbar/search.png) 50% 50% no-repeat;
+}
+
+#nav-basket {
+  background: url(./images/navbar/shop.png) 50% 50% no-repeat;
+}
+
+#adapter-info a {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  color: #08c;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Myriad Set Pro", "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+}
+
+#adapter-info a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color:  #f2f2f2;
+  font-family: "Myriad Set Pro", "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.66667;
+  font-weight: 400;
+  letter-spacing: -.01px;
+  padding: 20px;
+}
+
+.footer-nav {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.col-2 .header {
+  font-weight: 500;
+  color: #333;
+  font-size: 11px;
+}
+
+.col-2 a {
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+}
+
+.col-2 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer-help {
+  font-size: 11.94px;
+  color: #666;
+  opacity: 0.7;
+  font-family: "Myriad Set Pro", "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+}
+
+.footer-help a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.footer-help a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer-help p {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 5px;
+}
+
+.footer-help span {
+  padding-left: 10px;
+}
+
+.footer-legal ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-legal li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer-legal a {
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+  padding: 10px 10px;
+}
+
+.footer-legal li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.liright{
+  float:right;
+}
+
+.liright a{
+  text-decoration: none;
+}
+
+.liright a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
+.liright #usa {
+  display: inline-block;
+  height: 16px;
+  width: 25px;
+  background: url(./images/usa.png) no-repeat;
+  margin-top: 2px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
